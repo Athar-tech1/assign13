@@ -1,0 +1,49 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.container {
+    width: 500px;
+    margin: 20px auto;
+    display: flex;
+    box-shadow: 0 0 10px  #24786E;
+}
+.left {
+    width: 30%;
+    background-color: #C64A38;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.left img {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.right {
+    width: 70%;
+    background-color: #F78B6A;
+    padding: 20px;
+}
+h2 {
+    color:#1b2a49;
+    border-bottom: 2px solid #1b2a49;
+    padding-bottom: 5px;
+}
+.contact, .education, .skills, .languages {
+    text-align: left;
+    margin-bottom: 20px;
+}
+.contact p, .education p, .skills p, .languages p {
+    margin: 5px 0;
+}
+.work-experience {
+    margin-top: 20px;
+}
+.work-experience h3 {
+    color: #1b2a49;
+}
+
